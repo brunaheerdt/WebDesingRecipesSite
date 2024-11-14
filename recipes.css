@@ -91,13 +91,19 @@
 }
 .Bruna{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 .Nice{
     font-family:fantasy;
     margin-top: 10px;
     color: plum;
     font-style: oblique;
+    text-align: center;
+}
+.text{
+    text-align: center;
 }
 .Signup{
     display: block;
@@ -144,12 +150,71 @@ footer{
     padding: 60px;
     background-color: plum;
     margin-top: 30px;
-    color: white;
+    color: black;
     
 }
 .logo{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.recipes-blog{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-photo{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(237, 235, 235);
+    margin-top:  80px;
+    padding: 20px;
+    
+}
+.learn-more{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: plum;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:grid;
+    font-size: 20px;
+    text-decoration: none;
+}
+.photo-circle{
+    border-radius: 50%;
+    margin-top: -70px;
+    width: 250px;
+}
+.signup-search{
+    padding: 50px;
+}
+.instagram{
+    border-radius: 50%;
+    font-family: fantasy;
+    font-size:x-large;
+    margin-top: 20px;
+}
+.list-recipe a{
+    text-decoration: none;
+    color: black;
+}
+.continue{
+    color: blueviolet;
+}
+.recipe-list-body a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.recipe-list-body a:hover .text-body-secondary{
+    color: plum !important;
+}
+
+
+
+
+
 
 
