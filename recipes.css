@@ -1,0 +1,156 @@
+.navbar{
+    text-align: left;
+}
+.home-bar{
+    margin-inline-start: auto;
+    display: flex;
+    justify-content: right;
+    background-color: white !important;
+    height: 100%;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.yellow-card{
+    background-color: plum;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.circle{
+    border-radius: 50%;
+    
+    
+}
+.search-bar-link{
+    color: plum;
+    font-weight: bold;
+    margin-right: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.search-botton{
+    background-color: plum;
+    color: white;
+    margin-inline-start: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.search{
+    margin-left: 80px;
+    height: 70px;
+    width: 400px;
+}
+.title-latest{
+    color: plum;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.collections-color{
+    color: plum;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.badge{
+    background-color: plum;
+    
+}
+.recipe-list-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cook-book{
+    max-width: 100%;
+    margin-top: 40px;
+}
+.fw-bold{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.view-more{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: plum;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:grid;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cooking-pic{
+    margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+.Bruna{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.Nice{
+    font-family:fantasy;
+    margin-top: 10px;
+    color: plum;
+    font-style: oblique;
+}
+.Signup{
+    display: block;
+    background-color: plum;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.email-updates{
+    font-family:fantasy;
+    font-style: oblique;
+
+}
+.signup-form{
+    margin-top: 15px;
+}
+.go{
+    color: white;
+}
+.margin01{
+    margin-top: 30px;
+    text-align: left;
+    text-decoration: dashed;
+}
+.margin01 a{
+    text-decoration: none;
+    color: rgb(86, 85, 85)
+}
+.margin02{
+    margin-top: 30px;
+    text-align: left;
+}
+.margin02 a {
+    text-decoration: none;
+    color: rgb(86, 85, 85)
+
+}
+footer{
+    text-align: center;
+    padding: 60px;
+    background-color: plum;
+    margin-top: 30px;
+    
+}
+.logo{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
