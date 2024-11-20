@@ -166,8 +166,9 @@ footer{
     text-align: center;
     margin-top: 20px;
     background-color: rgb(237, 235, 235);
-    margin-top:  80px;
+    margin-top:  70px;
     padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
 .learn-more{
@@ -211,6 +212,24 @@ footer{
 .recipe-list-body a:hover .text-body-secondary{
     color: plum !important;
 }
+.jump{
+    color: plum;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(237, 235, 235);
+    display: block;
+    padding: 10px;
+    font-size: large;
+}
+.alfredo{
+    margin-top: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 
 
 
