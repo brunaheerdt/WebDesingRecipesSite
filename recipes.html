@@ -1,350 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <link href="recipes.css" rel="stylesheet">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="recipes.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- adding google fonts style inside the head -->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style> 
+    </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="container text-start">
-            <div class="row">
-                <div class="col">
-                    <a href="index.html">
-                        <img src="images/LogoRecipes02.png" class="logo" height="200px" alt="Logo" />
-                    </a>
-                </div>
-                <div class="col text-end">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary home-bar">
-                        <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            <a class="nav-link active" href="recipes.html">Recipes</a>
-                            <a class="nav-link" href="aboutus.html">About us</a>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+      <div class="container text-start">
+        <div class="row">
+          <div class="col">
+            <a href="index.html">
+              <img
+                src="images/LogoRecipes02.png"
+                class="logo"
+                height="200px"
+                alt="Logo"
+              />
+            </a>
+          </div>
+          <div class="col text-end">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary home-bar">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+                <a class="nav-link active" href="recipes.html">Recipes</a>
+                <a class="nav-link" href="aboutus.html">About us</a>
+              </div>
+            </nav>
+          </div>
         </div>
-        <hr>
+      </div>
+      <hr />
 
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <div class="recipes-blog">
-                        <h3>Recipes Blog</h3>
-                        <p class="recipes-blog">Here's where you can find all the latest and greatest from the
-                            blog—recipes, tips and tricks, personal updates, and more. Be sure to sign up for email
-                            updates to receive all our new posts, right in your inbox.</p>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="recipes-blog">
+              <h3>Recipes Blog</h3>
+              <p class="recipes-blog">
+                Here's where you can find all the latest and greatest from the
+                blog—recipes, tips and tricks, personal updates, and more. Be
+                sure to sign up for email updates to receive all our new posts,
+                right in your inbox.
+              </p>
+            </div>
 
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipes.jpeg"
-                                    class="img-fluid rounded-start" alt="arancini">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Incredible Arancini</h5>
-                                    <p class="card-text">This is the best arancini! Creamy risotto packed with melty
-                                        mozzarella cheese,
-                                        and fried to golden stuffed perfection.</p>
-                                    <a href="recipe.html">
-                                        <p class="continue"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipes2.jpeg"
-                                    class="img-fluid rounded-start" alt="cucumber salad">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Bang Salmon with Avocado Cucumber Salsa</h5>
-                                    <p class="card-text">Creamy, sweet, savory, and punchy. Served with some steamy rice
-                                        and an avocado
-                                        cucumber salsa!</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipe8.jpeg"
-                                    class="img-fluid rounded-start" alt="scallion pancake">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Scallion Pancake with Eggs</h5>
-                                    <p class="card-text">A frozen scallion pancake, loaded with eggs, spinach, avocado
-                                        and chili crisp! A
-                                        five minute meal perfect for breakfast!</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipes4.jpeg"
-                                    class="img-fluid rounded-start" alt="alfredo sauce">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Homemade Alfredo Sauce</h5>
-                                    <p class="card-text">Creamy, silky, homemade Alfredo sauce! Perfectly smooth,
-                                        wonderfully creamy, and paired with twirly pasta.</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/post3.jpeg"
-                                    class="img-fluid rounded-start" alt="stick gochujang">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Sticky Gochujang Tofu with Herbs and Peanuts</h5>
-                                    <p class="card-text">Crispy golden tofu bathed in a 5-ingredient peanut gochujang
-                                        sauce that is spicy, sweet, tangy, and so delicious.</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/post2.jpeg"
-                                    class="img-fluid rounded-start" alt="chicken tacos">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Ridiculously Good Chicken Tacos with Green Sauce</h5>
-                                    <p class="card-text">Just 20 minutes to get these chicken tacos on the table! Juicy,
-                                        flavorful, and absolutely mindless in the best way.</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipe7.jpeg"
-                                    class="img-fluid rounded-start" alt="skewers">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Garlic and Black Pepper Beef Skewers</h5>
-                                    <p class="card-text">These beef skewers are bringing all the flavor! Thinly sliced
-                                        strips of steak browned and caramelized to juicy, sweet perfection.</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/post1.jpeg"
-                                    class="img-fluid rounded-start" alt="coconut kale">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Chicken with Coconut Kale</h5>
-                                    <p class="card-text">Golden, juicy, thinly sliced pan-fried chicken swims in a
-                                        creamy coconut-kale gravy-like situation with slips of shallot and a bit of
-                                        heat. Super easy, minimal ingredients!</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 border-0">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/recipe.jpeg"
-                                    class="img-fluid rounded-start" alt="ricotta meatballs">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body recipe-list-body">
-                                    <h5 class="card-title">Ricotta Meatballs with the Crispy Topping</h5>
-                                    <p class="card-text">These Ricotta Meatballs are an easy and delicious family
-                                        favorite! Tender, juicy homemade meatballs with a jar of good marinara and a
-                                        crispy topping to finish it all off. YUM!</p>
-                                    <a href="recipe.html">
-                                        <p class="card-text"><small class="text-body-secondary">Continue Reading</small>
-                                        </p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipes.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="arancini"
+                  />
                 </div>
-
-                <div class="col-4">
-                    <div class="card-photo">
-                        <a href="aboutus.html">
-                            <img class="photo-circle"
-                                src="images/head.jpeg">
-                        </a>
-                        <h4 class="Bruna">Hi! I’m Bruna.</h4>
-                        <h2 class="Nice">Nice to Meet You!</h2>
-                        <h5 class="text">I’m a former 4th grade teacher, now full time blogger. My husband Bjork and
-                            I live in
-                            Minnesota. Favorite things include my camera, lake days, and dark chocolate.</h5>
-                        <a href="aboutus.html" class="learn-more">
-                            Learn more
-                        </a>
-                    </div>
-                    <div class="Signup signup-search">
-                        <div class="row">
-                            <h3 class="email-updates">Follow us!</h3>
-                            <img class="instagram col-3"
-                                src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814048_640.png">
-                            <img class="instagram col-3"
-                                src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151299463.jpg">
-                            <img class="instagram col-3"
-                                src="https://cdn2.vectorstock.com/i/1000x1000/63/21/social-media-symbol-pinterest-vector-26936321.jpg">
-                            <img class="instagram col-3"
-                                src="https://st3.depositphotos.com/32824554/34451/v/450/depositphotos_344518290-stock-illustration-tik-tok-flat-icon-template.jpg">
-                        </div>
-                        <h3 class="instagram">Signup for Email Updates</h3>
-                        Get a Free eCookbook with our top 25 recipes.
-                        <div class="row signup-form">
-                            <div class="col-5">
-                                <input class="form-control " type="text" placeholder="First Name" aria-label="Search">
-                            </div>
-                            <div class="col-5">
-                                <input class="form-control" type="email" placeholder="Email" aria-label="Search">
-
-                            </div>
-                            <div class="col-2">
-                                <button class="btn btn-outline-success go" type="submit">GO</button>
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">Incredible Arancini</h5>
+                    <p class="card-text">
+                      This is the best arancini! Creamy risotto packed with
+                      melty mozzarella cheese, and fried to golden stuffed
+                      perfection.
+                    </p>
+                    <a href="recipe.html">
+                      <p class="continue">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
                 </div>
-                <hr>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipes2.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="cucumber salad"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">
+                      Bang Salmon with Avocado Cucumber Salsa
+                    </h5>
+                    <p class="card-text">
+                      Creamy, sweet, savory, and punchy. Served with some steamy
+                      rice and an avocado cucumber salsa!
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipe8.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="scallion pancake"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">Scallion Pancake with Eggs</h5>
+                    <p class="card-text">
+                      A frozen scallion pancake, loaded with eggs, spinach,
+                      avocado and chili crisp! A five minute meal perfect for
+                      breakfast!
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipes4.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="alfredo sauce"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">Homemade Alfredo Sauce</h5>
+                    <p class="card-text">
+                      Creamy, silky, homemade Alfredo sauce! Perfectly smooth,
+                      wonderfully creamy, and paired with twirly pasta.
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/post3.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="stick gochujang"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">
+                      Sticky Gochujang Tofu with Herbs and Peanuts
+                    </h5>
+                    <p class="card-text">
+                      Crispy golden tofu bathed in a 5-ingredient peanut
+                      gochujang sauce that is spicy, sweet, tangy, and so
+                      delicious.
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/post2.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="chicken tacos"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">
+                      Ridiculously Good Chicken Tacos with Green Sauce
+                    </h5>
+                    <p class="card-text">
+                      Just 20 minutes to get these chicken tacos on the table!
+                      Juicy, flavorful, and absolutely mindless in the best way.
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipe7.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="skewers"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">
+                      Garlic and Black Pepper Beef Skewers
+                    </h5>
+                    <p class="card-text">
+                      These beef skewers are bringing all the flavor! Thinly
+                      sliced strips of steak browned and caramelized to juicy,
+                      sweet perfection.
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/post1.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="coconut kale"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">Chicken with Coconut Kale</h5>
+                    <p class="card-text">
+                      Golden, juicy, thinly sliced pan-fried chicken swims in a
+                      creamy coconut-kale gravy-like situation with slips of
+                      shallot and a bit of heat. Super easy, minimal
+                      ingredients!
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 border-0">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/recipe.jpeg"
+                    class="img-fluid rounded-start"
+                    alt="ricotta meatballs"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body recipe-list-body">
+                    <h5 class="card-title">
+                      Ricotta Meatballs with the Crispy Topping
+                    </h5>
+                    <p class="card-text">
+                      These Ricotta Meatballs are an easy and delicious family
+                      favorite! Tender, juicy homemade meatballs with a jar of
+                      good marinara and a crispy topping to finish it all off.
+                      YUM!
+                    </p>
+                    <a href="recipe.html">
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >Continue Reading</small
+                        >
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                <div class="container text-center">
-                    <div class="row">
-                      <div class="col margin02">
-                        <a href="aboutus.html">
-                          <strong>More Info</strong><br>
-                        </a>
-                        <a href="aboutus.html">
-                          About</a><br>
-                          <a href="aboutus.html">
-                        Blog</a> <br>
-                        <a href="aboutus.html">
-                        Recipe Index</a> <br>
-                        <a href="aboutus.html">
-                        Blogging Resources</a> <br>
-                        <a href="aboutus.html">
-                        Income Reports</a> <br>
-                        <a href="aboutus.html">
-                        Sponsored Content</a> <br>
-                        <a href="aboutus.html">
-                        Media Mentions</a> <br>
-                        <a href="aboutus.html">
-                        Contact</a> <br>
-                      </div>
-                      <div class="col margin01">
-                        <a href="recipes.html">
-                        <strong>Food & Recipes</strong></a>
-                        <br>
-                        <a href="recipes.html">
-                        Sugar Free January</a> <br>
-                        <a href="recipes.html">
-                        Freezer Meals 101</a> <br>
-                        <a href="recipes.html">
-                        Quick and Easy Recipes</a> <br>
-                        <a href="recipes.html">
-                        Instant Pot Recipes</a> <br>
-                        <a href="recipes.html">
-                        Pasta Recipes</a> <br>
-                        <a href="recipes.html">
-                        Vegan Recipes</a> <br>
-                        <a href="recipes.html">
-                        Soup Recipes </a> <br>
-                        <a href="recipes.html">
-                        Taco Recipes</a> <br>
-                        <a href="recipes.html">
-                        Meal Prep Recipes</a> <br>
-                      </div>
-                      <div class="col Signup">
-                        <h3 class="email-updates">Signup for Email Updates</h3>
-                        Get a Free eCookbook with our top 25 recipes.
-                        <div class="row signup-form">
-                          <div class="col-5">
-                            <input class="form-control " type="text" placeholder="First Name" aria-label="Search">
-                          </div>
-                          <div class="col-5">
-                            <input class="form-control" type="email" placeholder="Email" aria-label="Search">
-              
-                          </div>
-                          <div class="col-2">
-                            <button class="btn btn-outline-success go" type="submit">GO</button>
-              
-                          </div>
-                        </div>
-              
-              
-                      </div>
+          <div class="col-4">
+            <div class="card-photo">
+              <a href="aboutus.html">
+                <img class="photo-circle" src="images/head.jpeg" />
+              </a>
+              <h3 class="Bruna">Hi! I’m Bruna.</h3>
+              <h3 class="Nice">Nice to Meet You!</h3>
+              <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines all the photos of food, and now you get to see the recipes while seeing my work.</h5>
+            </h5>
+              <a href="aboutus.html" class="learn-more"> Learn more </a>
+            </div>
+
+
+            <div class="Signup signup-search">
+                <div class="row">
+                  <h3 class="email-updates">Follow us!</h3>
+                  <div class="row">
+                    <!--instag-->
+                    <a href="https://www.instagram.com/heerdtphotography?igsh=MjdlZXp6bDMxdjRr" target="_blank" class="col-3">
+                      <img
+                        class="social-icon"
+                        src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814048_640.png"
+                        alt="Instagram"
+                      />
+                    </a>
+                    <!--facebook-->
+                    <a href="https://www.facebook.com" target="_blank" class="col-3">
+                      <img
+                        class="social-icon"
+                        src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151299463.jpg"
+                        alt="Facebook"
+                      />
+                    </a>
+                    <!--pinterest-->
+                    <a href="https://www.pinterest.com" target="_blank" class="col-3">
+                      <img
+                        class="social-icon"
+                        src="https://cdn2.vectorstock.com/i/1000x1000/63/21/social-media-symbol-pinterest-vector-26936321.jpg"
+                        alt="Pinterest"
+                      />
+                    </a>
+                    <!--tik tok-->
+                    <a href="https://www.tiktok.com" target="_blank" class="col-3">
+                      <img
+                        class="social-icon"
+                        src="https://st3.depositphotos.com/32824554/34451/v/450/depositphotos_344518290-stock-illustration-tik-tok-flat-icon-template.jpg"
+                        alt="Tik Tok"
+                      />
+                    </a>
+                  </div>
+
+                  <div class="col Signup">
+                    <h3 class="email-updates">Signup for updates</h3>
+                  <div class="row signup-form">
+                    <div class="col-5">
+                      <input
+                        class="form-control"
+                        type="text"
+                        placeholder="First Name"
+                        aria-label="First Name"
+                      />
+                    </div>
+                    <div class="col-5">
+                      <input
+                        class="form-control"
+                        type="email"
+                        placeholder="Email"
+                        aria-label="Email"
+                      />
+                    </div>
+                    <div class="col-2">
+                      <button class="btn btn-outline-success go" type="submit">
+                        GO
+                      </button>
                     </div>
                   </div>
+                </div>
+              </div>
+              <hr />
               
 
+
+              <h3 class="instagram">Signup for Email Updates</h3>
+              Get a Free eCookbook with our top 25 recipes.
+              <div class="row signup-form">
+                <div class="col-5">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="First Name"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-5">
+                  <input
+                    class="form-control"
+                    type="email"
+                    placeholder="Email"
+                    aria-label="Search"
+                  />
+                </div>
+                <div class="col-2">
+                  <button class="btn btn-outline-success go" type="submit">
+                    GO
+                  </button>
+                </div>
+              </div>
             </div>
+          </div>
+          <hr />
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col margin02">
+                <a href="aboutus.html"> <strong>More Info</strong><br /> </a>
+                <a href="aboutus.html"> About</a><br />
+                <a href="aboutus.html"> Blog</a> <br />
+                <a href="aboutus.html"> Recipe Index</a> <br />
+                <a href="aboutus.html"> Blogging Resources</a> <br />
+                <a href="aboutus.html"> Income Reports</a> <br />
+                <a href="aboutus.html"> Sponsored Content</a> <br />
+                <a href="aboutus.html"> Media Mentions</a> <br />
+                <a href="aboutus.html"> Contact</a> <br />
+              </div>
+              <div class="col margin01">
+                <a href="recipes.html"> <strong>Food & Recipes</strong></a>
+                <br />
+                <a href="recipes.html"> Sugar Free January</a> <br />
+                <a href="recipes.html"> Freezer Meals 101</a> <br />
+                <a href="recipes.html"> Quick and Easy Recipes</a> <br />
+                <a href="recipes.html"> Instant Pot Recipes</a> <br />
+                <a href="recipes.html"> Pasta Recipes</a> <br />
+                <a href="recipes.html"> Vegan Recipes</a> <br />
+                <a href="recipes.html"> Soup Recipes </a> <br />
+                <a href="recipes.html"> Taco Recipes</a> <br />
+                <a href="recipes.html"> Meal Prep Recipes</a> <br />
+              </div>
+              <div class="col Signup">
+                <h3 class="email-updates">Signup for Email Updates</h3>
+                Get a Free eCookbook with our top 25 recipes.
+                <div class="row signup-form">
+                  <div class="col-5">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="First Name"
+                      aria-label="Search"
+                    />
+                  </div>
+                  <div class="col-5">
+                    <input
+                      class="form-control"
+                      type="email"
+                      placeholder="Email"
+                      aria-label="Search"
+                    />
+                  </div>
+                  <div class="col-2">
+                    <button class="btn btn-outline-success go" type="submit">
+                      GO
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <footer>@NCI</footer>
-
-
-</body>
-
+  </body>
 </html>

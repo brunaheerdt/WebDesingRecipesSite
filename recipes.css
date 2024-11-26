@@ -1,3 +1,58 @@
+/*adding Montserrat font to body, header and footer*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300; /*100 fino e 900 grosso */
+    font-optical-sizing: auto;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    text-align: center;
+    padding: 60px;
+    background-color: plum;
+    margin-top: 30px;
+    color: black;
+}
+
+
+/*override Bootstrap font*/
+.card-title, .p-3, h5, h1, h2, h3, h4, h6, p {
+    font-family: "Montserrat", sans-serif !important;
+}
+.nav-link {
+    font-family: "Montserrat", sans-serif !important;
+}
+.card-title {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/*socials buttons*/
+.social-icon {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer;
+  }
+
+/*responsive*/
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1, h2, h3 {
+        font-weight: 400;
+    }
+}
+
+
 .navbar{
     text-align: left;
 }
@@ -8,51 +63,42 @@
     background-color: white !important;
     height: 100%;
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .yellow-card{
     background-color: plum;
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .circle{
-    border-radius: 50%;
-    
-    
+    border-radius: 50%;    
 }
 .search-bar-link{
     color: plum;
     font-weight: bold;
     margin-right: 80px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .search-botton{
     background-color: plum;
     color: white;
     margin-inline-start: 40px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .search{
     margin-left: 80px;
     height: 70px;
     width: 400px;
 }
-.title-latest{
+.title-latest, .collections-color{
     color: plum;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
-.collections-color{
-    color: plum;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
+
 .badge{
     background-color: plum;
     
@@ -62,17 +108,16 @@
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .cook-book{
     max-width: 100%;
     margin-top: 40px;
 }
 .fw-bold{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .view-more{
-    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: plum;
     color: white;
@@ -83,24 +128,25 @@
     display:grid;
     font-size: 20px;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 .cooking-pic{
     margin-top: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
     align-items: center;
 }
 .Bruna{
-    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 .Nice{
-    font-family:fantasy;
     margin-top: 10px;
     color: plum;
     font-style: oblique;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 .text{
     text-align: center;
@@ -113,13 +159,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-   
+    font-family: "Montserrat", sans-serif;   
 }
 .email-updates{
-    font-family:fantasy;
     font-style: oblique;
-
+    font-family: "Montserrat", sans-serif;
 }
 .signup-form{
     margin-top: 15px;
@@ -143,16 +187,8 @@
 .margin02 a {
     text-decoration: none;
     color: rgb(86, 85, 85)
+}
 
-}
-footer{
-    text-align: center;
-    padding: 60px;
-    background-color: plum;
-    margin-top: 30px;
-    color: black;
-    
-}
 .logo{
     margin-bottom: 10px;
     margin-top: 10px;
@@ -168,11 +204,9 @@ footer{
     background-color: rgb(237, 235, 235);
     margin-top:  70px;
     padding: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
+    font-family: "Montserrat", sans-serif;    
 }
 .learn-more{
-    font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: plum;
     color: white;
@@ -183,6 +217,7 @@ footer{
     display:grid;
     font-size: 20px;
     text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 .photo-circle{
     border-radius: 50%;
@@ -194,9 +229,9 @@ footer{
 }
 .instagram{
     border-radius: 50%;
-    font-family: fantasy;
     font-size:x-large;
     margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 .list-recipe a{
     text-decoration: none;
@@ -215,19 +250,19 @@ footer{
 .jump{
     color: plum;
     font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(237, 235, 235);
     display: block;
     padding: 10px;
     font-size: large;
+    font-family: "Montserrat", sans-serif;
 }
 .alfredo{
     margin-top: 30px;
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 .font{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
