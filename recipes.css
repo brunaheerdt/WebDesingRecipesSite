@@ -23,34 +23,16 @@ footer {
 
 
 /*override Bootstrap font*/
-.card-title, .p-3, h5, h1, h2, h3, h4, h6, p {
-    font-family: "Montserrat", sans-serif !important;
-}
-.nav-link {
+.card-title, .p-3, h5, h1, h2, h3, h4, h6, p, a, li, nav-link{
     font-family: "Montserrat", sans-serif !important;
 }
 .card-title {
     font-family: "Montserrat", sans-serif !important;
 }
-
-/*socials buttons*/
-.social-icon {
-    width: 40px;
-    height: auto;
-    display: block;
-    margin: 5px auto;
-    cursor: pointer;
-  }
-
-/*responsive*/
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    h1, h2, h3 {
-        font-weight: 400;
-    }
+.container{
+    font-family: "Montserrat", sans-serif !important;   
 }
+
 
 
 .navbar{
@@ -63,7 +45,6 @@ footer {
     background-color: white !important;
     height: 100%;
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;
 }
 .yellow-card{
     background-color: plum;
@@ -226,12 +207,6 @@ footer {
 }
 .signup-search{
     padding: 50px;
-}
-.instagram{
-    border-radius: 50%;
-    font-size:x-large;
-    margin-top: 20px;
-    font-family: "Montserrat", sans-serif;
 }
 .list-recipe a{
     text-decoration: none;
