@@ -1,0 +1,97 @@
+/* Aline Francisco CSS page - NCIRL - 27/11/2024 - Web Design */
+
+/*adding Montserrat font to body, header and footer*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300; /*100 fino e 900 grosso */
+    font-optical-sizing: auto;
+}
+/*footer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    text-align: center;
+    padding: 60px;
+    background-color: plum;
+    margin-top: 30px;
+    color: black;
+}*/
+
+/*horizontal footer*/
+.footer-horizontal {
+    display: flex;
+    background-color: plum;
+    padding: 30px 0;
+    color: black;
+    width: 100%;
+  }
+  .footer-horizontal .row {
+    flex-wrap: nowrap;
+  }
+  .footer-horizontal .col {
+    text-align: left;
+  }
+  
+  /*vertical footer*/
+  .footer-vertical {
+    display: block;
+    background-color: plum;
+    padding: 30px 0;
+    color: black;
+  }
+  .footer-vertical .row {
+    flex-direction: column;
+  }
+  .footer-vertical .col {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+/*more info, food & recipes, signup*/
+.footer-horizontal strong,
+.footer-vertical strong,
+.Signup {
+    background-color: plum;
+    color: black;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Signup {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Signup h3 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+/*inside footer sections*/
+.margin01 a, 
+.margin02 a {
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+}
+.margin01 a:hover, 
+.margin02 a:hover {
+    color:black;
+}
+
+/*override Bootstrap font to Montserrat*/
+.card-title, .p-3, h5, h1, h2, h3, h4, h6, p, a, li, nav-link{
+    font-family: "Montserrat", sans-serif !important;
+}
+.card-title {
+    font-family: "Montserrat", sans-serif !important;
+}
+.container{
+    font-family: "Montserrat", sans-serif !important;   
+}
+
