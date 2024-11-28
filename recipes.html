@@ -1,341 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recipes</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <link href="brunacss.css" rel="stylesheet">
-    <link href="alinecss.css" rel="stylesheet">
-    <link href="rhyscss.css" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <!--adding google fonts style inside the head-->
-    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style> 
-    </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="brunacss.css" rel="stylesheet">
+  <link href="alinecss.css" rel="stylesheet">
+  <link href="rhyscss.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!--adding google fonts style inside the head-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container text-start">
+      <div class="row">
+        <div class="col">
+          <a href="index.html">
+            <img src="images/LogoRecipes02.png" class="logo" height="200px" alt="Logo" />
+          </a>
+        </div>
+        <div class="col text-end">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary home-bar">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="recipes.html">Recipes</a>
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <hr />
+
     <div class="container">
-      <div class="container text-start">
-        <div class="row">
-          <div class="col">
-            <a href="index.html">
-              <img
-                src="images/LogoRecipes02.png"
-                class="logo"
-                height="200px"
-                alt="Logo"
-              />
-            </a>
+      <div class="row">
+        <div class="col-8">
+          <div class="recipes-blog">
+            <h3>Recipes Blog</h3>
+            <p class="recipes-blog">
+              Here's where you can find all the latest and greatest from the
+              blog—recipes, tips and tricks, personal updates, and more. Be
+              sure to sign up for email updates to receive all our new posts,
+              right in your inbox.
+            </p>
           </div>
-          <div class="col text-end">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary home-bar">
-              <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-                <a class="nav-link active" href="recipes.html">Recipes</a>
-                <a class="nav-link" href="aboutus.html">About us</a>
+
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipes.jpeg" class="img-fluid rounded-start" alt="arancini" />
               </div>
-            </nav>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Coxinha (Brazilian Chicken Croquettes)
+                  </h5>
+                  <p class="card-text">
+                    Coxinha is a popular street food snack in Brazil and is fun and economical to make. Think of it as
+                    savory dough shaped into a drumstick with a creamy chicken salad filling. It's then battered and
+                    fried to golden, crispy perfection.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="continue">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipes2.jpeg" class="img-fluid rounded-start" alt="Cheese Paste" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Cheese Paste</h5>
+                  <p class="card-text">You will get a Choux Pastry that has been filled with this delicious spread made
+                    of cheese that’s been mixed with seasonings and mayonnaise. It is quite similar in texture to what
+                    people refer to as pimento cheese, except we don’t use cream cheese in our spread.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipe8.jpeg" class="img-fluid rounded-start" alt="Kibe: Brazilian Beef Croquettes" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Kibe: Brazilian Beef Croquettes</h5>
+                  <p class="card-text">They are of Lebanese origin where they are made with ground lamb but in Brazil,
+                    typically they are made with ground beef. When the kibe are eaten raw, they are known as ​kibe cru.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipes4.jpeg" class="img-fluid rounded-start" alt="Classic Cheese Ball" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Classic Cheese Ball </h5>
+                  <p class="card-text">This Classic Cheese Ball recipe makes the perfect party appetizer. This cheese
+                    ball is made with cheddar cheese, cream cheese, green onion and spices, and coated in chopped
+                    pecans.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/post3.jpeg" class="img-fluid rounded-start" alt="Feta salad" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Feta salad
+                  </h5>
+                  <p class="card-text">Make the most of this deliciously salty cheese with our simple feta salad
+                    recipes. Try it with watermelon, roasted beetroot, quinoa or sweet grilled peaches
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/post2.jpeg" class="img-fluid rounded-start" alt="Hummus" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Hummus </h5>
+                  <p class="card-text">My favorite hummus recipe! With a few simple tricks, you can make the best
+                    creamy, smooth homemade hummus, and yes, it’s better than store-bought.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipe7.jpeg" class="img-fluid rounded-start" alt="Churros " />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Churros
+                  </h5>
+                  <p class="card-text">This churros recipe is astonishingly easy, and makes a truly great churros that’s
+                    hot and crisp on the outside, fluffy on the inside. The molten chocolate dipping sauce is mandatory,
+                    and you’ll have an entire batch on the table in a mere 20 minutes!
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/post1.jpeg" class="img-fluid rounded-start" alt="Easy Tomato Salad" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">Easy Tomato Salad</h5>
+                  <p class="card-text">We have a surplus of tomatoes this summer, and it’s glorious. I dreamed up this
+                    simple tomato salad recipe to make use of the excess. I simply sliced ripe tomatoes into bite-sized
+                    pieces, then I added some crisp red onion, lots of fresh basil, and drizzled it all with olive oil
+                    and good balsamic vinegar.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 border-0">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/recipe.jpeg" class="img-fluid rounded-start" alt="The Best Homemade Tacos" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body recipe-list-body">
+                  <h5 class="card-title">
+                    The Best Homemade Tacos
+                  </h5>
+                  <p class="card-text">Homemade Tacos are the perfect busy weeknight dinner. These Easy Ground Beef
+                    Tacos are better than take-out and ready in minutes.
+                  </p>
+                  <a href="recipe.html">
+                    <p class="card-text">
+                      <small class="text-body-secondary">Continue Reading</small>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card-photo">
+            <a href="aboutus.html">
+              <img class="photo-circle" src="images/head.jpeg" />
+            </a>
+            <h3 class="Bruna">Hi! I’m Bruna.</h3>
+            <h3 class="Nice">Nice to Meet You!</h3>
+            <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines
+              all the photos of food, and now you get to see the recipes while seeing my work.</h5>
+            </h5>
+            <a href="aboutus.html" class="learn-more"> Learn more </a>
+          </div>
+          <div class="Signup signup-search">
+            <div class="row">
+              <h3 class="email-updates">Follow us!</h3>
+              <img class="instagram circle col-3"
+                src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814048_640.png" />
+              <img class="instagram circle col-3"
+                src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151299463.jpg" />
+              <img class="instagram circle col-3"
+                src="https://cdn2.vectorstock.com/i/1000x1000/63/21/social-media-symbol-pinterest-vector-26936321.jpg" />
+              <img class="instagram circle col-3"
+                src="https://st3.depositphotos.com/32824554/34451/v/450/depositphotos_344518290-stock-illustration-tik-tok-flat-icon-template.jpg" />
+            </div>
+            <h3 class="instagram">Signup for Email Updates</h3>
+                        Get a Free eCookbook with our top 25 recipes.
+                        <div class="row signup-form">
+                            <div class="col-5">
+                                <input class="form-control " type="text" placeholder="First Name" aria-label="Search">
+                            </div>
+                            <div class="col-5">
+                                <input class="form-control" type="email" placeholder="Email" aria-label="Search">
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-outline-success go" type="submit">GO</button>
+                            </div>
+                        </div>
           </div>
         </div>
       </div>
-      <hr />
+    </div>
+  </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-8">
-            <div class="recipes-blog">
-              <h3>Recipes Blog</h3>
-              <p class="recipes-blog">
-                Here's where you can find all the latest and greatest from the
-                blog—recipes, tips and tricks, personal updates, and more. Be
-                sure to sign up for email updates to receive all our new posts,
-                right in your inbox.
-              </p>
-            </div>
 
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipes.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="arancini"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Coxinha (Brazilian Chicken Croquettes)
-                    </h5>
-                    <p class="card-text">
-                      Coxinha is a popular street food snack in Brazil and is fun and economical to make. Think of it as savory dough shaped into a drumstick with a creamy chicken salad filling. It's then battered and fried to golden, crispy perfection.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="continue">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipes2.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Cheese Paste"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Cheese Paste</h5>
-                    <p class="card-text">You will get a Choux Pastry that has been filled with this delicious spread made of cheese that’s been mixed with seasonings and mayonnaise. It is quite similar in texture to what people refer to as pimento cheese, except we don’t use cream cheese in our spread.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipe8.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Kibe: Brazilian Beef Croquettes"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Kibe: Brazilian Beef Croquettes</h5>
-                    <p class="card-text">They are of Lebanese origin where they are made with ground lamb but in Brazil, typically they are made with ground beef. When the kibe are eaten raw, they are known as ​kibe cru.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipes4.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Classic Cheese Ball"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Classic Cheese Ball                    </h5>
-                    <p class="card-text">This Classic Cheese Ball recipe makes the perfect party appetizer.  This cheese ball is made with cheddar cheese, cream cheese, green onion and spices, and coated in chopped pecans.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/post3.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Feta salad"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Feta salad
-                    </h5>
-                    <p class="card-text">Make the most of this deliciously salty cheese with our simple feta salad recipes. Try it with watermelon, roasted beetroot, quinoa or sweet grilled peaches
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/post2.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Hummus"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Hummus </h5>
-                    <p class="card-text">My favorite hummus recipe! With a few simple tricks, you can make the best creamy, smooth homemade hummus, and yes, it’s better than store-bought.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipe7.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Churros "
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Churros
-                    </h5>
-                    <p class="card-text">This churros recipe is astonishingly easy, and makes a truly great churros that’s hot and crisp on the outside, fluffy on the inside. The molten chocolate dipping sauce is mandatory, and you’ll have an entire batch on the table in a mere 20 minutes!
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/post1.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="Easy Tomato Salad"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">Easy Tomato Salad</h5>
-                    <p class="card-text">We have a surplus of tomatoes this summer, and it’s glorious. I dreamed up this simple tomato salad recipe to make use of the excess. I simply sliced ripe tomatoes into bite-sized pieces, then I added some crisp red onion, lots of fresh basil, and drizzled it all with olive oil and good balsamic vinegar.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 border-0">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="images/recipe.jpeg"
-                    class="img-fluid rounded-start"
-                    alt="The Best Homemade Tacos"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body recipe-list-body">
-                    <h5 class="card-title">
-                      The Best Homemade Tacos
-                    </h5>
-                    <p class="card-text">Homemade Tacos are the perfect busy weeknight dinner.  These Easy Ground Beef Tacos are better than take-out and ready in minutes.
-                    </p>
-                    <a href="recipe.html">
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Continue Reading</small
-                        >
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card-photo">
-              <a href="aboutus.html">
-                <img class="photo-circle" src="images/head.jpeg" />
-              </a>
-              <h3 class="Bruna">Hi! I’m Bruna.</h3>
-              <h3 class="Nice">Nice to Meet You!</h3>
-              <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines all the photos of food, and now you get to see the recipes while seeing my work.</h5>
-            </h5>
-              <a href="aboutus.html" class="learn-more"> Learn more </a>
-            </div>
-            <div class="Signup signup-search">
-              <div class="row">
-                <h3 class="email-updates">Follow us!</h3>
-                <img
-                  class="instagram col-3"
-                  src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814048_640.png"
-                />
-                <img
-                  class="instagram col-3"
-                  src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151299463.jpg"
-                />
-                <img
-                  class="instagram col-3"
-                  src="https://cdn2.vectorstock.com/i/1000x1000/63/21/social-media-symbol-pinterest-vector-26936321.jpg"
-                />
-                <img
-                  class="instagram col-3"
-                  src="https://st3.depositphotos.com/32824554/34451/v/450/depositphotos_344518290-stock-illustration-tik-tok-flat-icon-template.jpg"
-                />
-              </div>
-   
-
-<!-- horizontal footer-->
-<footer>
   <div class="container text-center">
     <div class="row">
       <div class="col margin02">
@@ -402,6 +359,8 @@
     </div>
   
 </div>
-</footer>
+<footer>@NCI</footer>
+
 </body>
+
 </html>

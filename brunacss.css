@@ -101,6 +101,7 @@
     display: block;
     background-color: plum;
     margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -110,9 +111,18 @@
 .email-updates{
     font-style: oblique;
     font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  
+}
+.instagram{
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 .signup-form{
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 .go{
     color: white;
@@ -205,6 +215,14 @@
     font-family: "Montserrat", sans-serif;
 }
 
+footer{
+    text-align: center;
+    padding: 60px;
+    background-color: plum;
+    margin-top: 30px;
+    color: black;
+    
+}
 
 
 
