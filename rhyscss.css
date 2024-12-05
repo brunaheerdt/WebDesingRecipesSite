@@ -1,2 +1,118 @@
 /*Rhys Connoly - NCIRL - 27.11.24 - Web Design*/
 
+.outer {
+       outline: 2px solid #CCC;
+       border: 1px solid #999;
+       background-color: #999;
+       }
+
+
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+            }
+            
+            .plum {
+              background-color: plum;
+              padding: 5%;
+              display: flex;
+              justify-content: center;
+            
+            }
+
+            .follow_us {
+              height: min-content;
+              color: white;
+              background-color: plum;
+              display: flex;
+              justify-content: center;
+            }
+            
+            /* Left Main Page Column */
+            .rleft-column {
+              flex-grow: 2;
+              overflow-y:auto;
+              padding: 20px;
+              background-color: #ffffff;
+            }
+      
+            /* Right Sidebar Column */
+            .rright-column {
+              width: 350px;
+              background-color: plum;
+              border-left: 1px solid #ddd;
+              display: flex;
+              flex-direction: column;
+              padding: 20px;
+            }
+      
+            /* Right Column Content */
+            .right-column .rcontainer {
+              flex-grow: 1;
+              overflow-y: auto;
+            }
+      
+            .rSignup h3 {
+              margin-bottom: 1px;
+            }
+      
+            /* Scrollbars Styling */
+            .left-column::-webkit-scrollbar,
+            .right-column .container::-webkit-scrollbar {
+              width: 8px;
+            }
+      
+            /* Adjust margin and alignment */
+            .rmargin01, .margin02 {
+              margin-bottom: 1px;
+            }
+      
+            .rSignup .btn {
+              margin-top: 1px;
+              text-align: center;
+            }
+
+            .panel-footer{
+              height:100px; 
+              color:plum;
+          }
+
+          .test-a-container-colour {
+              background-color: rgb(243, 10, 10);
+          }
+
+          .popup-color{
+              background-color: plum;
+              border-color: plum;
+          }
+
+          .signbutton {
+              color: black;
+              font-weight: bold;
+              background-color: plum;
+              border-color: plum;
+            }
+          
+            .Signup_border{
+              border: 2px solid black;
+              border-radius: 5;}
+
+              .icon_color{
+              color: white;
+              }
+
+              .recipe_footer_color{
+                background-color: plum;
+              }
+              .testwidth{
+                width: 100;
+              }
+
+
+              
+                                      
+          
+           
+                   

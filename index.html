@@ -10,85 +10,71 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <link href="brunacss.css" rel="stylesheet">
-  <link href="alinecss.css" rel="stylesheet">
-  <link href="rhyscss.css" rel="stylesheet">
+    <script src="./footer-component.js" type="text/javascript" defer></script>
+    <script src="./header.js" type="text/javascript" defer></script>
+    <script src="./javafunctions.js" type="text/javascript" defer></script>
+    <link href="rhyscss.css" rel="stylesheet">
+    <link href="brunacss.css" rel="stylesheet">
 
-  <!-- adding Montserrat google fonts style inside the head -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-  </style>
-</head>
 
-<body>
+    <!-- adding Montserrat google fonts style inside the head -->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');</style> 
+  <body>
+
+  <header-component></header-component>
   <div class="container">
-    <div class="container text-start">
-      <div class="row">
-        <div class="col">
-          <a href="index.html">
-            <img src="images/LogoRecipes02.png" class="logo" height="200px" alt="Logo" />
-          </a>
-        </div>
-        <div class="col text-end">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary home-bar">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="recipes.html">Recipes</a>
-              <a class="nav-link" href="aboutus.html">About us</a>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
 
     <div class="row mt-6 mb-5">
+
       <div class="col-6 col-md-6 col-lg-5 col-xl-3">
         <div class="card h-100 border-0">
           <a href="recipes.html">
             <img src="images/tophome5.jpeg" class="card-img-top" alt="Dinner">
           </a>
           <div class="card-body yellow-card">
-            <h5 class="card-title text-center"> Dinner
-            </h5>
+            <h5 class="card-title text-center"> Dinner </h5>
           </div>
         </div>
       </div>
+
       <div class="col-6 col-md-4 col-lg-3 col-xl-3">
         <div class="card h-100 border-0">
           <a href="recipes.html">
             <img src="images/tophome7.jpeg" class="card-img-top" alt="fall">
           </a>
           <div class="card-body yellow-card">
-            <h5 class="card-title text-center"> Fall
-            </h5>
+            <h5 class="card-title text-center">Fall</h5>
           </div>
         </div>
       </div>
+
       <div class="col-6 col-md-4 col-lg-3 col-xl-3">
         <div class="card h-100 border-0">
           <a href="recipes.html">
-            <img src="images/tophome3.jpeg" class="card-img-top" alt="slow cook">
+            <img src="images/tophome3.jpeg"class="card-img-top" alt="slow cook">
           </a>
           <div class="card-body yellow-card">
-            <h5 class="card-title text-center"> Slow cook
-            </h5>
+            <h5 class="card-title text-center"> Slow cook</h5>
           </div>
         </div>
       </div>
+
       <div class="col-6 col-md-4 col-lg-3 col-xl-3">
         <div class="card h-100 border-0">
           <a href="recipes.html">
-            <img src="images/tophome4.jpeg" class="card-img-top" alt="soup">
+            <img src="images/tophome4.jpeg"class="card-img-top" alt="soup">
           </a>
           <div class="card-body yellow-card">
-            <h5 class="card-title text-center"> Soup
-            </h5>
+            <h5 class="card-title text-center"> Soup</h5>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+    
     <div class="container text-center">
-      <div class="row">
+      <div class="row ">
 
         <div class="col">
           <a href="recipes.html">
@@ -96,38 +82,44 @@
           </a>
           <div class="p-3">Quick and Easy</div>
         </div>
+
         <div class="col">
           <a href="recipes.html">
             <img src="images/mini2.jpeg" class="circle">
           </a>
           <div class="p-3">Dinner</div>
         </div>
+
         <div class="col">
           <a href="recipes.html">
-            <img src="images/mini3.jpeg" class="circle">
+            <img src="images/mini3.jpeg"class="circle">
           </a>
           <div class="p-3">Vegetarian</div>
         </div>
+
         <div class="col">
           <a href="recipes.html">
-            <img src="images/mini4.jpeg" class="circle">
+            <img src="images/mini4.jpeg"class="circle">
           </a>
           <div class="p-3">Healthy</div>
         </div>
+
         <div class="col">
           <a href="recipes.html">
-            <img src="images/mini5.jpeg" class="circle">
+            <img src="images/mini5.jpeg"class="circle">
           </a>
           <div class="p-3">Instant Pot</div>
         </div>
+
         <div class="col">
           <a href="recipes.html">
-            <img src="images/mini6.jpg" class="circle">
+            <img src="images/mini6.jpg"class="circle">
           </a>
           <div class="p-3">Vegan</div>
         </div>
       </div>
     </div>
+
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid d-flex justify-content-center">
         <a class="navbar-brand search-bar-link" href="recipes.html">View all Recipes</a>
@@ -148,14 +140,13 @@
           <div class="card mb-3 border-0">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/post1.jpeg" class="img-fluid rounded-start" alt="salad">
+                <img src="images/post1.jpeg"
+                  class="img-fluid rounded-start" alt="salad">
               </div>
               <div class="col-md-8">
                 <div class="card-body recipe-list-body">
                   <h5 class="card-title">Dreamy Salad</h5>
-                  <p class="card-text">A simple salad of fresh mixed greens or lettuce, accompanied by crisp vegetables
-                    like cucumber and tomatoes. It can be enhanced with additions such as cheese, nuts, or croutons for
-                    extra flavor and texture</p>
+                  <p class="card-text">A simple salad of fresh mixed greens or lettuce, accompanied by crisp vegetables like cucumber and tomatoes. It can be enhanced with additions such as cheese, nuts, or croutons for extra flavor and texture</p>
                   <a href="recipes.html">
                     <p class="card-text"><small class="text-body-secondary">Continue Reading</small></p>
                   </a>
@@ -166,14 +157,13 @@
           <div class="card mb-3 border-0">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/post2.jpeg" class="img-fluid rounded-start"
-                  alt="Rustic Almond and Roasted Red Pepper Pate">
+                <img src="images/post2.jpeg"
+                  class="img-fluid rounded-start" alt="Rustic Almond and Roasted Red Pepper Pate">
               </div>
               <div class="col-md-8">
                 <div class="card-body recipe-list-body">
                   <h5 class="card-title">Rustic Almond and Roasted Red Pepper Pate</h5>
-                  <p class="card-text">Makes a great base for brushchetta or serve it as a dip. It's also a great way to
-                    sneak veggies into a dish, especially greens.</p>
+                  <p class="card-text">Makes a great base for brushchetta or serve it as a dip. It's also a great way to sneak veggies into a dish, especially greens.</p>
                   <a href="recipes.html">
                     <p class="card-text"><small class="text-body-secondary">Continue Reading</small></p>
                   </a>
@@ -184,13 +174,13 @@
           <div class="card mb-3 border-0">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="images/post3.jpeg" class="img-fluid rounded-start" alt="honey walnut">
+                <img src="images/post3.jpeg"
+                  class="img-fluid rounded-start" alt="honey walnut">
               </div>
               <div class="col-md-8">
                 <div class="card-body recipe-list-body">
                   <h5 class="card-title">Honey Walnut Salad with Feta</h5>
-                  <p class="card-text">Eat this when you want to have a complete meal that will give you lots of energy
-                    or as a side dish packed with vital nutrients.</p>
+                  <p class="card-text">Eat this when you want to have a complete meal that will give you lots of energy or as a side dish packed with vital nutrients.</p>
                   <a href="recipes.html">
                     <p class="card-text"><small class="text-body-secondary">Continue Reading</small></p>
                   </a>
@@ -217,8 +207,8 @@
               <span class="badge rounded-pill">10</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-start">
-
-              <div class="ms-2 me-auto">
+              
+                <div class="ms-2 me-auto">
                 <a href="recipes.html">
                   <div class="fw-bold">Vegan Recipes</div>
                 </a>
@@ -269,7 +259,8 @@
           </ol>
 
           <a href="aboutus.html">
-            <img src="images/poy-ecookbook-2021.webp" class="rounded float-end cook-book" alt="cool book">
+            <img src="images/poy-ecookbook-2021.webp"
+              class="rounded float-end cook-book" alt="cool book">
           </a>
         </div>
       </div>
@@ -280,9 +271,8 @@
         <div class="col-4">
           <h3 class="Bruna">Hi! I’m Bruna.</h3>
           <h3 class="Nice">Nice to Meet You!</h3>
-          <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines
-            all the photos of food, and now you get to see the recipes while seeing my work.</h5>
-          </h5>
+          <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines all the photos of food, and now you get to see the recipes while seeing my work.</h5>
+        </h5>
         </div>
         <div class="col-4">
           <a href="aboutus.html">
@@ -297,84 +287,14 @@
       </div>
     </div>
 
-
-
-
-
-
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col margin02">
-          <a href="aboutus.html">
-            <strong>More Info</strong><br>
-          </a>
-          <a href="https://www.instagram.com/heerdtphotography?igsh=MjdlZXp6bDMxdjRr">Instagram</a><br>
-          <a href="aboutus.html">
-            About</a><br>
-          <a href="aboutus.html">
-            Blog</a> <br>
-          <a href="aboutus.html">
-            Recipe Index</a> <br>
-          <a href="aboutus.html">
-            Blogging Resources</a> <br>
-          <a href="aboutus.html">
-            Income Reports</a> <br>
-          <a href="aboutus.html">
-            Sponsored Content</a> <br>
-          <a href="aboutus.html">
-            Media Mentions</a> <br>
-          <a href="aboutus.html">
-            Contact</a> <br>
-        </div>
-
-
-        <div class="col margin01">
-          <a href="recipes.html">
-            <strong>Food & Recipes</strong></a>
-          <br>
-          <a href="recipes.html">
-            Sugar Free January</a> <br>
-          <a href="recipes.html">
-            Freezer Meals 101</a> <br>
-          <a href="recipes.html">
-            Quick and Easy Recipes</a> <br>
-          <a href="recipes.html">
-            Instant Pot Recipes</a> <br>
-          <a href="recipes.html">
-            Pasta Recipes</a> <br>
-          <a href="recipes.html">
-            Vegan Recipes</a> <br>
-          <a href="recipes.html">
-            Soup Recipes </a> <br>
-          <a href="recipes.html">
-            Taco Recipes</a> <br>
-          <a href="recipes.html">
-            Meal Prep Recipes</a> <br>
-        </div>
-
-
-        <div class="col Signup">
-          <h3 class="email-updates">Signup for updates</h3>
-          Get a Free eBook with our top 25 recipes
-          <div class="row signup-form">
-            <div class="col-5">
-              <input class="form-control " type="text" placeholder="Name" aria-label="Search">
-            </div>
-            <div class="col-5">
-              <input class="form-control" type="email" placeholder="Email" aria-label="Search">
-            </div>
-            <div class="col-2">
-              <button class="btn btn-outline-success go" type="submit">GO</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
   </div>
-  <footer>@NCI</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+<footer-component></footer-component>
 
 </html>
