@@ -1,5 +1,10 @@
 /*Rhys Connoly - NCIRL - 27.11.24 - Web Design*/
 
+.hidden {
+  display: none;
+  /* Right column hidden on mobile */
+}
+
 .outer {
        outline: 2px solid #CCC;
        border: 1px solid #999;

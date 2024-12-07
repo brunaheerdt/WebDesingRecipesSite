@@ -1,187 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Recipes</title>
-      <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"/>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-      </script>
-         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>     
-         <script src="main.js" defer></script>
 
-         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-         <script src="recipes_array.js"></script>
-       
-      <script src="./scripts.js" type="text/javascript" defer></script>
-      <link href="brunacss.css" rel="stylesheet">
-      <link href="alinecss.css" rel="stylesheet">
-      <link href="rhyscss.css" rel="stylesheet">
-      <script type="module" src="./recipes_array.js"></script>
-      <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-          rel="stylesheet"/>
-        <!--adding google fonts style inside the head-->
-      <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        
-      </style> 
-    </head>
-  <style>          
-  body {
-    margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Discover delicious recipes for every occasion. From quick and easy meals to gourmet delights, explore our curated collection of recipes and cooking tips." />
+  <title>Recipes Blog
+  </title>
 
-    .content-wrapper {
-      display: flex;
-      flex: 1;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
-    }
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-      @media (max-width: 768px) {
-      .rright-column {
-        display: none; /* Right column hidden on mobile */
-        
-      }
+  <script src="footer_header_render.js" defer></script>
+  <link href="brunacss.css" rel="stylesheet">
+  <link href="alinecss.css" rel="stylesheet">
+  <link href="rhyscss.css" rel="stylesheet">
 
-      .rleft-column {
-      flex: 1; /* Take full width */
-      margin-right: 0; /* Remove margin when right column is hidden */
-      }
-      .hidden {
-        display: none; /* Right column hidden on mobile */
-      }
-    }
-        
+</head>
+<body>
+
+  <div id="header-component"></div>
 
 
-  
-
-  
-</style>
-  
-  <body>
-
-    <!-- Left Column -->
-    <div class="rleft-column">
-      <div id="header-component"></div>
-      <div class="row border-top">
-        <div class="col-8">
-          <div class="recipes-blog">
-            <h1>Recipes Blog</h1>
-            <p class="recipes-blog">
-              Here's where you can find all the latest and greatest from the
-              blog—recipes, tips and tricks, personal updates, and more. Be
-              sure to sign up for email updates to receive all our new posts,
-              right in your inbox.
-            </p>
-          </div>
+  <div class="container">
+    <div class="row border-top">
+      <div class="col-8">
+        <div class="recipes-blog">
+          <h1>Recipes Blog</h1>
+          <p class="recipes-blog">
+            Here's where you can find all the latest and greatest from the
+            blog—recipes, tips and tricks, personal updates, and more. Be
+            sure to sign up for email updates to receive all our new posts,
+            right in your inbox.
+          </p>
         </div>
+
+        <script type="module" src="./scripts.js"></script>
+
+        <div id="recipes-list" class="row text-center"></div>
       </div>
-
-      <script type="module" src="./scripts.js"></script>
-    <div class="container">
-    <h1>Recipes</h1>
-    <div id="recipes-list" class="row text-center"></div>
-  </div>
-  <div id="footer-component"</div>
-
-</div>
-    <!-- Right Column -->
-    <div class="rright-column">
-      <div class="right-column-container pb-5">
-        <div class="container text-center ">
-          <div class="row ">
-
-            <!-- Column 1 -->
-            <div class="col margin02 small-container{">
-              <h5 class="text-font-weight-bold">More Info</h5>
-              <a href="aboutus.html">Instagram</a><br />
-              <a href="aboutus.html">About</a><br />
-              <a href="aboutus.html">Blog</a><br />
-              <a href="aboutus.html">Recipe Index</a><br />
-              <a href="aboutus.html">Blogging Resources</a><br />
-              <a href="aboutus.html">Income Reports</a><br />
-              <a href="aboutus.html">Sponsored Content</a><br />
-              <a href="aboutus.html">Media Mentions</a><br />
-              <a href="aboutus.html">Contact</a><br />
-            </div>
-          </div>
-
-            <!-- Column 2 -->
-          <div class="row">
-            <div class="col margin02 ">
-              <h5>Food & Recipes</h5>
-              <a href="recipes.html">Sugar Free January</a><br />
-              <a href="recipes.html">Freezer Meals 101</a><br />
-              <a href="recipes.html">Quick and Easy Recipes</a><br />
-              <a href="recipes.html">Instant Pot Recipes</a><br />
-              <a href="recipes.html">Pasta Recipes</a><br />
-              <a href="recipes.html">Vegan Recipes</a><br />
-              <a href="recipes.html">Soup Recipes</a><br />
-              <a href="recipes.html">Taco Recipes</a><br />
-              <a href="recipes.html">Meal Prep Recipes</a><br />
-            </div>
-            
-            <div="mt-auto recipe_footer_color ">
-            <!-- Signup Column -->
-            <div class="col Signup follow_us Signup_border p4">
-              <h3 class="email-updates ">Sign Up For Updates</h3>
-              <p>Get a Free eBook with our top 25 recipes</p>
-              <!-- Trigger Button for Newsletter Popup -->
-              <button class="btn btn-primary signbutton " data-bs-toggle="modal" data-bs-target="#newsletterModal">
-                Sign Up Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-         
-    </head>
-  </div> <!--nite for box-->
-</div>
-    
-    <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header popup-color">
-            <h5 class="modal-title text-light" id="newsletterModalLabel">Subscribe to Our Newsletter</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p>Sign up and get a free eBook with our top 25 recipes!</p>
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Your Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
-              </div>
-              <button type="submit" class=" popup-color btn  btn-primary w-100">Subscribe</button>
-            </form>
-          </div>
+      <div class="col-4">
+        <div class="card-photo">
+          <a href="aboutus.html">
+            <img class="photo-circle" src="images/head.jpeg" />
+          </a>
+          <h3 class="Bruna">Hi! I’m Bruna.</h3>
+          <h3 class="Nice">Nice to Meet You!</h3>
+          <h5 class="text">I'm a passionate Brazilian food photographer who has made Ireland my home. My work combines
+            all the photos of food, and now you get to see the recipes while seeing my work.</h5>
+          </h5>
+          <a href="aboutus.html" class="learn-more"> Learn more </a>
         </div>
       </div>
     </div>
   </div>
 
-</body>
 
+  <footer id="footer-component"></footer>
+
+</body>
 
 </html>
