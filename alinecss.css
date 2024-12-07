@@ -1,4 +1,5 @@
 /* Aline Francisco CSS page - NCIRL - 27/11/2024 - Web Design */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*adding Montserrat font to body, header and footer*/
 body {
@@ -16,7 +17,6 @@ footer {
     font-weight: 400;
     font-optical-sizing: auto;
     text-align: center;
-    padding: 60px;
     background-color: white;
     margin-top: 30px;
     color: black;
