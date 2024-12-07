@@ -1,5 +1,5 @@
 <div class="container-fluid p-0">
-  <div class="container">
+  <div class="container d-none d-md-block">
     <div class="row p-5 ">
       <div class="row p-5 ">
 
@@ -45,10 +45,10 @@
       <h3 class="email-updates text-center">Follow us!</h3>
       <div class="d-flex justify-content-center">
         <!-- Social Media Icons -->
-        <a href=‘fbook_link’ class="icon_color" ;><i class="bi bi-facebook mx-2" style="font-size: 2rem;"></a></i>
-        <a href='insta_link' class="icon_color" ;><i class="bi bi-instagram mx-2" style="font-size: 2rem;"></a></i>
-        <a href='pin_link' class="icon_color" ;><i class="bi bi-pinterest mx-2" style="font-size: 2rem;"></a></i>
-        <a href='tiktok_link' class="icon_color" ;><i class="bi bi-tiktok mx-2" style="font-size: 2rem;"></a></i>
+        <a href='#' class="icon_color"><i class="bi bi-facebook mx-2" style="font-size: 2rem;"></a></i>
+        <a href='#' class="icon_color"><i class="bi bi-instagram mx-2" style="font-size: 2rem;"></a></i>
+        <a href='#' class="icon_color"><i class="bi bi-pinterest mx-2" style="font-size: 2rem;"></a></i>
+        <a href='#' class="icon_color"><i class="bi bi-tiktok mx-2" style="font-size: 2rem;"></a></i>
       </div>
     </div>
 
@@ -63,14 +63,16 @@
           </div>
           <div class="modal-body text-dark">
             <p>Sign up and get a free eBook with our top 25 recipes!</p>
-            <form>
+            <form class="needs-validation" novalidate>
               <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <div class=" invalid-name" style="display: none;"> Name is required </div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Your Email</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <div class=" invalid-email" style="display: none;"> Email is required </div>
               </div>
               <button type="submit" class=" popup-color btn  btn-primary w-100">Subscribe</button>
             </form>

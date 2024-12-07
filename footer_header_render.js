@@ -30,7 +30,31 @@ jQuery(document).ready(function () {
     if (status === "error") {
       console.error("Error loading footer:", xhr.status, xhr.statusText);
     } else {
-      console.log("Header loaded successfully")
+      console.log("Footer loaded successfully")
+
+      // form validation
+      $(".needs-validation").on("submit", (e) => {
+        e.preventDefault();
+
+        let hasError = false;
+        if ($('#name').val() === "") {
+          $('.invalid-name').show();
+          hasError = true;
+        } else {
+          $('.invalid-name').hide();
+        }
+        if ($('#email').val() === "") {
+          $('.invalid-email').show()
+          hasError = true;
+        } else {
+          $('.invalid-email').hide();
+        }
+
+        if (hasError === false) {
+          alert("E-mail subscribed successfully!")
+        }
+      })
+
     }
   });
 });
