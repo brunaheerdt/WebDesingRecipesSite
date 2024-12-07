@@ -1,18 +1,5 @@
 export const recipes = [
     {
-      id: "Coxinha",
-      title: "Coxinha (Brazilian Chicken Croquettes)",
-      image: "images/recipes.jpeg",
-      exerpt: "Coxinha is a popular street food snack in Brazil and is fun and economical to make. It's then battered and fried to golden, crispy perfection.",
-      steps: [
-        "Boil chicken until tender, shred, and season with spices.",
-        "Prepare dough with chicken broth, butter, and flour.",
-        "Fill dough with chicken mixture, shape into teardrops.",
-        "Coat in batter and breadcrumbs.",
-        "Deep fry until golden and crispy."
-      ]
-    },
-    {
       id: "cheese_paste",
       title: "Cheese Paste",
       image: "images/recipes2.jpeg",

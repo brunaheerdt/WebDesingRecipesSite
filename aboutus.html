@@ -10,25 +10,25 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="main.js" defer></script>
-  
+    <script src="footer_header_render.js" defer></script>
     <link href="brunacss.css" rel="stylesheet">
     <link href="alinecss.css" rel="stylesheet">
     <link href="rhyscss.css" rel="stylesheet">
     <!-- adding Montserrat google fonts style inside the head -->
-    <style>@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); </style>
+    <style>@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); 
+    @media (max-width: 768px) {
+      .hidden {
+        display: none; /* Right column hidden on mobile */
+      }
+    }
+    </style>
   </head>
 
   <body>
+    
     <div id="header-component"></div>
 
   <div class="card-photo text-start">
@@ -79,9 +79,9 @@
         </div>
       </div>
    </div>
-   <div id="footer-component" class="container-fluid"></div>
 
     </body>
+    <div id="footer-component" class="container-fluid"></div>
 
 </html>
 

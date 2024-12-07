@@ -28,7 +28,7 @@ $(document).ready(function () {
             <div class="card-body recipe-list-body">
               <h5 class="card-title">${recipe.title}</h5>
               <p class="card-text description">${recipe.exerpt}</p>
-              <a href="therecipe.html?id=${recipe.id}" class="btn small btn-link text-body-secondary">Continue Reading</a>
+              <a href="recipe_showcase.html?id=${recipe.id}" class="btn small btn-link text-body-secondary">Continue Reading</a>
             </div>
           </div>
         </div>
