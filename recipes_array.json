@@ -1,0 +1,175 @@
+[
+    {
+      "id": "cheese_paste",
+      "title": "Cheese Paste",
+      "image": "images/recipes2.jpeg",
+      "exerpt": "You will get a Choux Pastry that has been filled with this delicious spread made of cheese that’s been mixed with seasonings and mayonnaise. It is quite similar in texture to what people refer to as pimento cheese, except we don’t use cream cheese in our spread.",
+      "ingredients": [
+        "200g grated cheddar cheese",
+        "100g mayonnaise",
+        "Salt to taste",
+        "Pepper to taste",
+        "1 pinch paprika (optional)"
+      ],
+      "steps": [
+        "Grate the cheese finely to ensure a smooth texture.",
+        "In a mixing bowl, combine grated cheese with mayonnaise.",
+        "Add seasonings such as salt, pepper, and a pinch of paprika for flavor.",
+        "Mix the ingredients thoroughly until well combined.",
+        "If making choux pastry, prepare the dough by boiling water and butter, then adding flour and eggs.",
+        "Pipe or spoon the choux pastry onto a baking sheet and bake until golden brown.",
+        "Allow pastries to cool completely before filling.",
+        "Pipe or spread the cheese paste onto pastries or slices of bread.",
+        "Optionally garnish with fresh herbs or paprika for presentation.",
+        "Serve immediately or transfer to an airtight container and store in the fridge for later use."
+      ]
+    },
+    {
+      "id": "kibe",
+      "title": "Kibe: Brazilian Beef Croquettes",
+      "image": "images/recipe8.jpeg",
+      "exerpt": "They are of Lebanese origin where they are made with ground lamb but in Brazil, typically they are made with ground beef. When the kibe are eaten raw, they are known as ​kibe cru.",
+      "ingredients": [
+        "1 cup bulgur wheat",
+        "500g ground beef",
+        "1 tsp salt",
+        "1/2 tsp black pepper",
+        "1/2 tsp ground allspice",
+        "2 tbsp finely chopped mint",
+        "Oil for frying"
+      ],
+      "steps": [
+        "Rinse bulgur wheat under cold water until water runs clear.",
+        "Soak bulgur wheat in warm water until softened, about 20 minutes.",
+        "Drain the bulgur wheat thoroughly, pressing out excess water.",
+        "In a mixing bowl, combine bulgur wheat with ground beef.",
+        "Season the mixture with salt, pepper, ground allspice, and finely chopped mint.",
+        "Knead the mixture until it becomes a cohesive dough-like consistency.",
+        "For raw kibe, shape the mixture into small patties or balls and serve with olive oil and lemon wedges.",
+        "To cook, form the mixture into croquette shapes.",
+        "Heat oil in a deep fryer or skillet to 350°F (175°C).",
+        "Deep fry the kibe in batches until golden brown and cooked through.",
+        "Drain on paper towels and serve hot with a yogurt or tahini sauce."
+      ]
+    },
+    {
+      "id": "cheese_ball",
+      "title": "Classic Cheese Ball",
+      "image": "images/recipes4.jpeg",
+      "exerpt": "This Classic Cheese Ball recipe makes the perfect party appetizer. This cheese ball is made with cheddar cheese, cream cheese, green onion and spices, and coated in chopped pecans.",
+      "ingredients": [
+      "200g cream cheese, softened",
+      "150g shredded cheddar cheese",
+      "2 green onions, chopped",
+      "1/2 tsp garlic powder",
+      "1/2 tsp onion powder",
+      "1 dash hot sauce",
+      "1 cup chopped pecans"
+    ],
+      "steps": [
+        "Bring cream cheese to room temperature for easier mixing.",
+        "In a large bowl, combine softened cream cheese, shredded cheddar cheese, and chopped green onions.",
+        "Add seasonings such as garlic powder, onion powder, and a dash of hot sauce.",
+        "Mix the ingredients thoroughly until well combined.",
+        "Shape the mixture into a ball using plastic wrap or your hands.",
+        "Place chopped pecans on a plate or tray.",
+        "Roll the cheese ball in the pecans until fully coated.",
+        "Wrap the cheese ball in plastic wrap and chill in the refrigerator for at least 2 hours.",
+        "Remove from the fridge 15 minutes before serving to soften slightly.",
+        "Serve with crackers, vegetable sticks, or bread."
+      ]
+    },
+    {
+      "id": "feta_salad",
+      "title": "Feta Salad",
+      "image": "images/post3.jpeg",
+      "exerpt": "Make the most of this deliciously salty cheese with our simple feta salad recipes. Try it with watermelon, roasted beetroot, quinoa or sweet grilled peaches",
+      "steps": [
+        "Wash and dry fresh vegetables or fruits such as watermelon, beetroot, or peaches.",
+        "Peel and dice the fruits or vegetables into bite-sized pieces.",
+        "Crumble feta cheese over the prepared fruits or vegetables.",
+        "Toast some nuts, such as walnuts or almonds, for added crunch (optional).",
+        "Drizzle olive oil and balsamic vinegar over the salad.",
+        "Season with a pinch of salt and freshly ground black pepper.",
+        "Toss the salad gently to coat all ingredients evenly.",
+        "For a more robust flavor, add fresh herbs such as mint or basil.",
+        "Let the salad sit for 5-10 minutes to allow the flavors to meld.",
+        "Serve immediately or chill for later enjoyment."
+      ]
+    },
+    {
+      "id": "hummus",
+      "title": "Hummus",
+      "image": "images/post2.jpeg",
+      "exerpt": "My favorite hummus recipe! With a few simple tricks, you can make the best creamy, smooth homemade hummus, and yes, it’s better than store-bought.",
+      "steps": [
+        "Drain and rinse canned chickpeas or soak and cook dried chickpeas until tender.",
+        "Reserve some chickpea cooking liquid or canned liquid for adjusting the consistency.",
+        "In a food processor, combine chickpeas, tahini, minced garlic, and fresh lemon juice.",
+        "Blend the mixture while gradually adding olive oil to achieve a smooth texture.",
+        "Season with salt, ground cumin, and a dash of paprika for flavor.",
+        "If the hummus is too thick, add reserved liquid a little at a time to adjust.",
+        "Blend again until completely smooth and creamy.",
+        "Taste and adjust seasonings as needed.",
+        "Transfer to a serving bowl and drizzle with olive oil.",
+        "Garnish with paprika, chopped parsley, or whole chickpeas before serving."
+      ]
+    },
+    {
+      "id": "churros",
+      "title": "Churros",
+      "image": "images/recipe7.jpeg",
+      "exerpt": "This churros recipe is astonishingly easy, and makes a truly great churros that’s hot and crisp on the outside, fluffy on the inside. The molten chocolate dipping sauce is mandatory, and you’ll have an entire batch on the table in a mere 20 minutes!",
+      "steps": [
+        "In a saucepan, combine water, butter, sugar, and a pinch of salt.",
+        "Bring the mixture to a boil, then remove from heat.",
+        "Stir in flour all at once until a smooth dough forms.",
+        "Allow the dough to cool slightly, then beat in eggs one at a time.",
+        "Transfer the dough to a piping bag fitted with a star-shaped tip.",
+        "Heat oil in a deep fryer or skillet to 375°F (190°C).",
+        "Pipe dough directly into the hot oil, cutting off lengths with scissors.",
+        "Fry churros in batches, turning occasionally, until golden brown and crispy.",
+        "Drain on paper towels to remove excess oil.",
+        "Roll warm churros in a mixture of cinnamon and sugar.",
+        "For dipping sauce, melt chocolate with heavy cream over low heat.",
+        "Serve churros hot with the chocolate sauce on the side."
+      ]
+    },
+    {
+      "id": "tomato_salad",
+      "title": "Easy Tomato Salad",
+      "image": "images/post1.jpeg",
+      "exerpt": "We have a surplus of tomatoes this summer, and it’s glorious. I dreamed up this simple tomato salad recipe to make use of the excess. I simply sliced ripe tomatoes into bite-sized pieces, then I added some crisp red onion, lots of fresh basil, and drizzled it all with olive oil and good balsamic vinegar.",
+      "steps": [
+        "Select ripe, juicy tomatoes and wash them thoroughly.",
+        "Slice tomatoes into bite-sized pieces or wedges.",
+        "Thinly slice red onions and soak in cold water for 10 minutes to reduce sharpness.",
+        "Tear fresh basil leaves into smaller pieces.",
+        "Combine tomatoes, red onions, and basil in a mixing bowl.",
+        "Drizzle generously with high-quality olive oil and balsamic vinegar.",
+        "Season with salt, pepper, and a pinch of sugar if desired.",
+        "Toss the salad gently to distribute the dressing evenly.",
+        "Let the salad sit for a few minutes for flavors to meld.",
+        "Serve as a side dish or enjoy on its own with crusty bread."
+      ]
+    },
+    {
+      "id": "taco",
+      "title": "The Best Homemade Tacos",
+      "image": "images/recipe.jpeg",
+      "exerpt": "Homemade Tacos are the perfect busy weeknight dinner. These Easy Ground Beef Tacos are better than take-out and ready in minutes.",
+      "steps": [
+        "Heat a skillet over medium-high heat and add ground beef.",
+        "Cook the beef, breaking it into small crumbles with a spatula.",
+        "Once browned, drain any excess grease from the skillet.",
+        "Stir in taco seasoning and a splash of water.",
+        "Simmer the beef mixture until the sauce thickens and coats the meat.",
+        "Prepare toppings such as shredded lettuce, diced tomatoes, grated cheese, and sour cream.",
+        "Warm taco shells or tortillas in the oven or on a skillet.",
+        "Spoon the seasoned beef into the taco shells.",
+        "Top with your choice of prepared toppings.",
+        "Serve immediately with salsa, guacamole, or hot sauce on the side."
+      ]
+    }
+  ]
+  

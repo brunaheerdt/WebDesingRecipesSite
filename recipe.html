@@ -15,9 +15,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- j-query must go before bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="footer_header_render.js" defer></script>
       <script src="./scripts.js" type="text/javascript" defer></script>
   <link href="footer_header_render.js" rel="stylesheet">
@@ -31,17 +31,14 @@
         display: none; /* Right column hidden on mobile */
       }
     }
-
     </style> 
   </head>
 
-  
-  <body>
-    <div id="header-component"></div>
+  <div id="header-component"></div>
 
-  
-      <div class="container">
-        <div class="row">
+  <body>
+      <div class="container ">
+        <div class="row justify-content-center">
           <div class="col-8">
             <div class="recipes-blog">
               <h3 class="font">Homemade Alfredo Sauce</h3>
@@ -222,7 +219,7 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-4 hidden">
             <div class="card-photo">
               <a href="aboutus.html">
                 <img class="photo-circle" src="images/head.jpeg" />
@@ -233,7 +230,11 @@
               </h5>
               <a href="aboutus.html" class="learn-more"> Learn more </a>
             </div> 
-</body>
+          </div>
+        </div>
+      </div>
+
+  </body>
 <div id="footer-component"</div> <!-- page needs to be organised in rows to be placed at the bottom-->
 
 </html>
