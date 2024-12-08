@@ -1,10 +1,8 @@
 <footer>
-
-  <div class="container-fluid">
-      <div class="container">
-        <div class="row p-5 ">
-          <div class="row p-5 ">
-            
+  <div class="row footer"">
+    <div class="container">
+      <div class="row p-5 ">
+        <div class="row p-5 ">  
           <div class="hidden col-4 margin02 b5>
             <a href="aboutus.html"><strong>More Info</strong></a><br>
             <a href="https://www.instagram.com/heerdtphotography?igsh=MjdlZXp6bDMxdjRr">Instagram</a><br>
@@ -17,7 +15,6 @@
             <a href="aboutus.html">Media Mentions</a><br>
             <a href="aboutus.html">Contact</a><br>
           </div>
-  
           <div class="col-4 margin02 b5 hidden">
             <a href="recipes.html"><strong>Food & Recipes</strong></a><br>
             <a href="recipes.html">Sugar Free January</a><br>
@@ -30,7 +27,6 @@
             <a href="recipes.html">Taco Recipes</a><br>
             <a href="recipes.html">Meal Prep Recipes</a><br>
           </div>
-  
           <div class="col Signup follow_us Signup_border p4 ">
             <h3 class="email-updates ">Sign Up For Updates</h3>
             <p>Get a Free eBook with our top 25 recipes</p>
@@ -42,51 +38,50 @@
         </div>
       </div>
     </div>
-        <div class="rsignup Signup_border follow_us">
-          <div class="row">
-            <h3 class="email-updates text-center">Follow us!</h3>
-            <div class="d-flex justify-content-center">
-                <!-- Social Media Icons -->
-                <a href= ‘fbook_link’ class="icon_color";><i class="bi bi-facebook mx-2" style="font-size: 2rem;"></a></i>
-                <a href= 'insta_link' class="icon_color";><i class="bi bi-instagram mx-2" style="font-size: 2rem;"></a></i>
-                <a href= 'pin_link' class="icon_color";><i class="bi bi-pinterest mx-2" style="font-size: 2rem;"></a></i>
-                <a href= 'tiktok_link' class="icon_color";><i class="bi bi-tiktok mx-2" style="font-size: 2rem;"></a></i>
-              </div>
-          </div>
+    <div class="rsignup Signup_border follow_us">
+      <div class="row">
+        <h3 class="email-updates text-center">Follow us!</h3>
+        <div class="d-flex justify-content-center">
+          <!-- Social Media Icons -->
+          <a href= ‘fbook_link’ class="icon_color";><i class="bi bi-facebook mx-2" style="font-size: 2rem;"></a></i>
+          <a href= 'insta_link' class="icon_color";><i class="bi bi-instagram mx-2" style="font-size: 2rem;"></a></i>
+          <a href= 'pin_link' class="icon_color";><i class="bi bi-pinterest mx-2" style="font-size: 2rem;"></a></i>
+          <a href= 'tiktok_link' class="icon_color";><i class="bi bi-tiktok mx-2" style="font-size: 2rem;"></a></i>
+        </div>
+      </div>
   
   
-          <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header popup-color">
-                  <h5 class="modal-title text-light" id="newsletterModalLabel">Subscribe to Our Newsletter</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header popup-color">
+              <h5 class="modal-title text-light" id="newsletterModalLabel">Subscribe to Our Newsletter</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-dark">
+              <p>Sign up and get a free eBook with our top 25 recipes!</p>
+              <form id="newsletterForm" novalidate>
+              <!-- Name input -->
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
                 </div>
-                <div class="modal-body text-dark">
-                  <p>Sign up and get a free eBook with our top 25 recipes!</p>
-                  <form id="newsletterForm" novalidate>
-                    <!-- Name input -->
-                    <div class="mb-3">
-                      <label for="name" class="form-label">Your Name</label>
-                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                      <div class="invalid-feedback">Please enter your name.</div>
-                    </div>
-          
-                    <!-- Email input -->
-                    <div class="mb-3">
-                      <label for="email" class="form-label">Your Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                      <div class="invalid-feedback">Please enter a valid email address.</div>
-                    </div>
-          
-                    <!-- Submit button -->
-                    <button type="submit" class="popup-color btn btn-primary w-100">Subscribe</button>
-                  </form>
+                <!-- Email input -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
                 </div>
-              </div>
+                <!-- Submit button -->
+                <button type="submit" class="popup-color btn btn-primary w-100">Subscribe</button>
+                </form>
             </div>
           </div>
-          
+        </div>
+      </div>
+    </div>  
+  </div>  
           <script>document.querySelector('#newsletterForm').addEventListener('submit', function(event) {
         // Prevent form submission if there are invalid fields
         if (!this.checkValidity()) {
